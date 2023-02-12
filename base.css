@@ -20,7 +20,7 @@ html {
 
 @font-face {
   font-family: Raginy;
-  src: url(./RaginyRegular-rgwZA.ttf);
+  src: url(./base/RaginyRegular-rgwZA.ttf);
 }
 
 body{max-width: 100%;
