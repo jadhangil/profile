@@ -1,0 +1,769 @@
+@media screen and (max-width: 1400px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        padding: 0 200px;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header .logo {
+        font-size: 31px;
+
+    }
+
+    header img {
+        height: 33px;
+        width: 33px;
+    }
+
+    .home-sec {
+        width: 100%;
+        height: 627px;
+        margin-bottom: 100px;
+
+
+    }
+
+    .txt-sec {
+        max-width: 478px;
+        max-height: 100%;
+
+    }
+
+    .hed-1 {
+        line-height: 100px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 81px;
+
+    }
+
+    .hed-2 {
+
+
+        line-height: 76.92px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 54px;
+        text-align: left;
+        color: #000;
+
+    }
+
+    .hed-3 {
+
+        line-height: 44.44px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 36px;
+        text-align: left;
+        color: #000;
+
+
+    }
+
+    .home-btn {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 24px;
+
+    }
+
+    .home-btn img {
+        width: 29.38px;
+        height: 14.06px;
+
+
+
+    }
+
+    .img-sec {
+        max-width: 392px;
+        position: relative;
+        height: 627px;
+
+
+
+    }
+
+    .img-sec img {
+        width: 290px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: 1;
+        width: 210px;
+        height: 521px;
+
+    }
+
+    .img-sec .home-box {
+        height: 100%;
+        width: 286px;
+        background: var(--second-color);
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+
+
+    }
+
+    /* quote section */
+
+    .quote-sec {
+        max-width: 100%;
+        height: 555px;
+        margin-top: 164px;
+        position: relative;
+
+
+
+    }
+
+    .quote-sec img {
+
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 382.29px;
+        height: 501.97px;
+
+
+    }
+
+    .quote-sec .qt {
+
+        background: #e9bdae;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        padding-left: 47%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        max-width: 100%;
+        height: 502px;
+
+
+    }
+
+    .qts1 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 67.34px;
+        text-align: left;
+        color: #000;
+        line-height: 76.52px;
+
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 50.52px;
+        text-align: left;
+        color: #000;
+
+    }
+
+    .qts2 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 37.9px;
+        text-align: left;
+        color: #000;
+        line-height: 57.40px;
+    }
+
+    .qts3 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 21.33px;
+        text-align: left;
+        color: #000;
+        line-height: 32.30px;
+    }
+
+    .qts4 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 21.33px;
+        text-align: left;
+        color: #000;
+        line-height: 24.23px;
+
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        color: #000;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1316px) {
+    .quote-sec .qt {
+        padding-left: 54%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1194px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        padding: 0 60px;
+        overflow-x: hidden;
+    }
+
+    .quote-sec .qt {
+        padding-left: 48%;
+
+
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+
+    .quote-sec .qt {
+        padding-left: 54%;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 924px) {
+
+
+    .quote-sec .qt {
+        padding-left: 50%;
+
+
+    }
+
+    .quote-sec img {
+
+
+        width: 324px;
+        height: 425.87px;
+        outline: 4px solid #fff;
+
+
+
+    }
+
+    .img-sec .home-box {
+        height: 100%;
+        max-width: 172px;
+        background: var(--second-color);
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+
+
+    }
+
+    .img-sec img {
+        width: 290px;
+        position: absolute;
+        left: unset;
+        right: 85px;
+        bottom: 0px;
+        z-index: 1;
+        width: 210px;
+        height: 521px;
+
+    }
+
+    .txt-sec {
+        max-width: 100%;
+    }
+
+    .img-sec {
+        max-width: 0px;
+
+    }
+}
+
+@media screen and (max-width: 836px) {
+
+    .home-sec {
+        height: 985px;
+        margin-bottom: 100px;
+        /* background-color: aquamarine; */
+    }
+
+    .img-sec {
+        max-width: 60px;
+        height: 985px;
+        position: relative;
+
+    }
+
+    .img-sec img {
+        width: 290px;
+        position: absolute;
+        left: unset;
+        right: 78px;
+        bottom: 0px;
+        z-index: 1;
+        max-width: 270px;
+        height: 668px;
+
+    }
+
+    .img-sec .home-box {
+        height: 985px;
+        max-width: 172px;
+        background: var(--second-color);
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        top: 0;
+    }
+
+    .txt-sec {
+        max-width: 604px;
+        max-height: 709px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        padding-top: 211px;
+
+    }
+
+
+
+    /* quote section */
+
+    /* .quote-sec {
+
+        width: 100%;
+        height: 925px;
+        position: relative;
+        margin: 200px 0;
+    }
+
+    .quote-sec img {
+
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .quote-sec .qt {
+
+        padding-left: unset;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0px;
+        right: 0;
+        z-index: 2;
+        width: 100%;
+        height: 200%;
+        background: transparent;
+        
+        backdrop-filter: blur(15px);
+        --webkit-backdrop-filter: blur(15px);
+        background-color: rgba(0, 0, 0, 0.11);
+
+    }
+
+    .quote-sec .qt p {
+        color: white;
+    }
+
+ */
+
+
+    .quote-sec {
+        position: relative;
+        width: 100%;
+        height: 925px;
+    }
+
+    .quote-sec img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    .quote-sec .qt {
+
+        padding: unset;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+        background: transparent;
+        /* Note: currently only Safari supports backdrop-filter */
+        backdrop-filter: blur(15px);
+        --webkit-backdrop-filter: blur(15px);
+        background-color: rgba(0, 0, 0, 0.355);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .qt p {
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .img-sec img {
+
+        right: 30px;
+
+
+    }
+
+    .img-sec .home-box {
+        max-width: 150px;
+    }
+
+
+    body {
+        padding: 0 40px;
+    }
+
+    .quote-sec {
+        height: 800px;
+
+    }
+
+}
+
+@media screen and (max-width: 656px) {
+
+    .img-sec img {
+
+        right: 30px;
+        width: 230px;
+        height: 566px;
+
+
+
+
+    }
+
+    .img-sec .home-box {
+        max-width: 138px;
+    }
+
+
+
+    body {
+        padding: 0 30px;
+    }
+
+    .quote-sec {
+        height: 700px;
+
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    header {
+        height: 10vh;
+    }
+
+    header img {
+        height: 26px;
+        width: 26px;
+    }
+
+    header .logo {
+        font-size: 26px;
+        border: none;
+    }
+
+
+    .home-sec {
+        height: 835px;
+
+    }
+
+    .img-sec img {
+        top: unset;
+        left: unset;
+        right: 32px;
+        bottom: 0;
+        width: 218px;
+        height: 536px;
+
+    }
+
+    .txt-sec {
+        height: 100%;
+    }
+
+    .img-sec {
+        height: 100%;
+    }
+
+
+
+    .hed-1 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 54px;
+        text-align: left;
+        color: #000;
+        line-height: 66.66px;
+
+    }
+
+    .hed-2 {
+
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 36px;
+        text-align: left;
+        color: #000;
+        line-height: 44.44px;
+
+    }
+
+    .hed-3 {
+
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: left;
+        color: #000;
+        line-height: 34px;
+
+    }
+
+    .home-btn p {
+        font-size: 20px;
+    }
+
+
+
+
+    .img-sec .home-box {
+        max-width: 138px;
+        height: unset;
+    }
+
+    body {
+        padding: 0 30px;
+    }
+
+    .quote-sec {
+        height: 540px;
+
+    }
+
+}
+
+@media screen and (max-width: 466px) {
+
+    .img-sec .home-box {
+        max-width: 90px;
+
+    }
+
+    .img-sec img {
+        top: unset;
+        left: unset;
+        right: -14px;
+        bottom: 0;
+        width: 218px;
+        height: 536px;
+
+    }
+
+    .qts1 {
+
+        font-weight: 500;
+        font-size: 37.90px;
+        text-align: left;
+        color: #000;
+        line-height: 55.08px;
+    }
+
+    .qts2 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 28.43px;
+        text-align: left;
+        color: #000;
+        line-height: 41.31px;
+    }
+
+    .qts3 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 21.33px;
+        text-align: left;
+        color: #000;
+        line-height: 31px;
+    }
+
+    .qts4 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        color: #000;
+        line-height: 23.25px;
+    }
+
+}
+
+@media screen and (max-width: 422px) {
+
+    .img-sec .home-box {
+        max-width: 90px;
+
+    }
+
+    .img-sec img {
+        top: unset;
+        left: unset;
+        right: -32px;
+        bottom: 0;
+        width: 218px;
+        height: 536px;
+
+    }
+
+    .quote-sec {
+        height: 460px;
+
+    }
+
+}
+
+@media screen and (max-width: 396px) {
+    .img-sec img {
+        top: unset;
+        left: unset;
+        right: -32px;
+        bottom: 0;
+
+
+        max-width: 184px;
+        height: 454px;
+
+
+    }
+
+    /* header{
+        height: 8vh;
+    } */
+    header img{
+        height: 22px;
+        width: 22px;
+    }
+    header .logo{
+        font-size: 22px;
+        border: none;
+    }
+
+    .img-sec .home-box {
+        max-width: 90px;
+        z-index: -1;
+
+    }
+    .img-sec{
+        width: 1px;
+    }
+
+    .img-sec .home-box {
+        right: -5px;
+        max-width: 60px;
+
+    }
+    .quote-sec {
+        height: 380px;
+
+    }
+
+    
+        .txt-sec {
+            padding-top: 97px;
+      }
+      body {
+        padding: 0 26px;
+    }
+
+    .home-btn{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .img-sec .home-box {
+        right: -5px;
+        max-width: 60px;
+
+    }
+    .quote-sec {
+        height: 360px;
+
+    }
+
+    
+        .txt-sec {
+            padding-top: 100px;
+      }
+     
+
+      .qts1 {
+        font-size: 28.43px;
+        line-height: 41.31px;
+    }
+    .qts2 {
+        font-size: 21.33px;
+        line-height: 31px;
+    }
+    .qts3 {
+        font-size: 16px;
+        line-height: 23.25px;
+    }
+    .qts4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+}
+

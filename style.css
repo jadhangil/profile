@@ -1,0 +1,197 @@
+.all {
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 164px;
+    width: 100%;
+
+}
+
+header .logo {
+    font-family: Raginy;
+    font-weight: normal;
+    font-size: 44px;
+    color: #000;
+}
+
+header img {
+    width: 40px;
+    height: 39.99px;
+
+
+}
+
+
+
+
+
+
+.home-sec {
+    width: 100%;
+    height: 846px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.txt-sec {
+    max-width: 604px;
+    max-height: 846px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.home-txt a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hed-1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 121px;
+    text-align: left;
+    color: #000;
+    line-height: 130px;
+
+}
+
+.hed-2 {
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 81px;
+    text-align: left;
+    color: #000;
+    line-height: 100px;
+
+}
+
+.hed-3 {
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 54px;
+    text-align: left;
+    color: #000;
+    line-height: 76.92px;
+
+}
+
+.home-btn {
+    margin-top: 101px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2.25rem;
+    text-align: left;
+    color: #000;
+    transition-duration: .6s;
+
+}
+.home-btn:hover {
+    transform: translateY(-4px);
+
+}
+
+
+.img-sec {
+    width: 604px;
+    height: 846px;
+    position: relative;
+
+}
+
+.img-sec .home-box {
+    height: 100%;
+    width: 437px;
+    background: var(--second-color);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+
+}
+
+.img-sec img {
+    width: 290px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    transition-duration: .6s;
+}
+
+
+
+.quote-sec {
+    width: 100%;
+    height: 734px;
+    margin-top: 164px;
+    position: relative;
+
+}
+
+.quote-sec img{
+    width: 512.29px;
+    height: 672.97px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    outline: 6px solid white;
+    }
+.quote-sec .qt{width: 1148px;
+    height: 673px;
+    background: #e9bdae;
+    position: absolute;
+    right: 0;bottom: 0;
+    z-index: -1;
+    padding-left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.qts1{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 67.34px;
+    text-align: left;
+    color: #000;
+    line-height: 102px;
+    }
+
+.qts2{font-family: Poppins;
+    font-weight: 500;
+    font-size: 50.52px;
+    text-align: left;
+    color: #000;
+    line-height: 76px;
+    }
+
+.qts3{font-family: Poppins;
+    font-weight: 500;
+    font-size: 37.9px;
+    text-align: left;
+    color: #000;
+    line-height: 57px;
+    }
+
+.qts4{font-family: Poppins;
+    font-weight: 500;
+    font-size: 21.33px;
+    text-align: left;
+    color: #000;
+    line-height: 31px;}
+
+
+
+
+
+
