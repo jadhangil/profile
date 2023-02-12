@@ -18,6 +18,11 @@ html {
 /* Font - raginy */
 @import url('./RaginyRegular-rgwZA.ttf');
 
+@font-face {
+  font-family: Raginy;
+  src: url(./RaginyRegular-rgwZA.ttf);
+}
+
 body{max-width: 100%;
     overflow-x: hidden;}
 *{font-family: Poppins}
