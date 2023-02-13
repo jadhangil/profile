@@ -64,6 +64,7 @@ body{overflow-x: hidden;}
 }
 .imgs img{
     transition-duration: .6s;
+     border-radius: 3%;
     
 }
 .home-txt .home-btn{
