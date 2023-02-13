@@ -95,5 +95,6 @@ video {
 
 body{
  width:100%;
- overflow-y: hidden;
+ height:auto;
+ overflow-x: hidden;
 }
