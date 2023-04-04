@@ -12,7 +12,7 @@
   <meta name="author" content="Jadhangil PM">
   <meta property="og:title" content="Jadhangil PM">
   <meta property="og:description" content="visit site..">
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+ 
   <style>
     #forScrollHide{
     overflow-x:hidden;
@@ -53,7 +53,7 @@
   </style>
 </head>
 
-<body id="forScrollHide" data-scroll-container>
+<body id="forScrollHide">
 
   <div class="all">
     <!-- Header -->
@@ -145,36 +145,7 @@
 
 
   </div>
-  <script>
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector("[data-scroll-container]"),
-        smooth: true, // enable smooth scrolling
-        direction: "vertical", // scroll direction
-        multiplier: 0.8, // scroll speed multiplier
-        touchMultiplier: 2, // touch scroll speed multiplier
-        scrollFromAnywhere: true, // enable scrolling from anywhere on the page
-        smoothMobile: true, // enable smooth scrolling on mobile devices
-        inertia: 0.9, // scroll inertia
-        reloadOnContextChange: true, // reload when the page is resized or orientation changes
-        resetNativeScroll: true, // reset the native scroll position to the top on reload
-        lerp: 0.1, // scroll interpolation value
-        class: "is-inview", // class added to elements in view
-        scrollbarClass: "c-scrollbar", // class added to the scrollbar
-        scrollingClass: "has-scroll-scrolling", // class added to the container during scrolling
-        draggingClass: "has-scroll-dragging", // class added when the scrollbar is being dragged
-        smoothClass: "has-scroll-smooth", // class added during smooth scrolling
-        initClass: "has-scroll-init", // class added when Locomotive Scroll is initialized
-        getSpeed: true, // enable speed retrieval
-        getDirection: false, // disable direction retrieval
-        firefoxMultiplier: 50, // multiplier for Firefox browser
-        touchMultiplier: 2, // multiplier for touch events
-        smartphoneMultiplier: 1.5, // multiplier for smartphones
-        tabletMultiplier: 2, // multiplier for tablets
-        lerpSpeed: 0.1, // scroll interpolation speed
-        smoothDelay: 50, // delay before smooth scrolling is applied
-        cancelOnTouch: true, // disable smooth scrolling on touch devices
-      });
-  </script>
+ 
   <script src="./lightbox-plus-jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
